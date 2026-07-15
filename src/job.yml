@@ -8,9 +8,10 @@ command: >-
 inputs:
   training_data:
     type: 
+      yml inputs: 
         training_data: 
           type: uri_file 
-          path: azureml:diabetes-data@latest
+          path: azureml:diabetes-data@latest 
   reg_rate: 0.01
 outputs:
   metrics_output:
